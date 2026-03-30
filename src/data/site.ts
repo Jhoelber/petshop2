@@ -23,8 +23,8 @@ export const siteData: SiteData = {
   slogan: 'Nós cuidamos do seu pet!',
   instagram: '@pazpetshop',
   instagramUrl: 'https://www.instagram.com/pazpetshop/',
-  // Preencha quando tiver o número oficial:
-  // whatsappUrl: 'https://wa.me/5565SEUNUMERO',
+   whatsappUrl:
+    'https://wa.me/556536415971?text=Ola%2C%20tudo%20bem%3F%20Gostaria%20de%20tirar%20uma%20duvida%20com%20voc%C3%AAs',
   cityLabel: 'Cuiabá - MT',
   address,
   mapsUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`,
