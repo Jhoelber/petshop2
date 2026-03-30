@@ -35,7 +35,7 @@ export function Navbar() {
           href={siteData.instagramUrl}
           target="_blank"
           rel="noreferrer"
-          className="inline-flex items-center justify-center rounded-full bg-pink-500 px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-pink-200 transition hover:bg-pink-600"
+          className="inline-flex max-w-full items-center justify-center whitespace-nowrap rounded-full bg-pink-500 px-4 py-2 text-xs font-bold text-white shadow-lg shadow-pink-200 transition hover:bg-pink-600 sm:px-5 sm:py-2.5 sm:text-sm"
         >
           Siga {siteData.instagram}
         </a>

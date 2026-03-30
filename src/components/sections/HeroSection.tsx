@@ -4,7 +4,7 @@ import { siteData } from '../../data/site';
 
 export function HeroSection() {
   return (
-    <section id="inicio" className="section-anchor paw-pattern hero-mesh overflow-hidden py-16 md:py-24">
+    <section id="inicio" className="section-anchor paw-pattern hero-mesh overflow-hidden py-16">
       <Container>
         <div className="grid items-center gap-14 lg:grid-cols-[1.02fr_0.98fr]">
           <div className="space-y-8">
@@ -45,29 +45,33 @@ export function HeroSection() {
               </a>
             </div>
 
-            <div className="flex flex-col gap-5 pt-2 sm:flex-row sm:items-center">
-              <div className="flex -space-x-3">
-                {['🐶', '🐱', '🐰'].map((emoji, index) => (
+            <div className="flex items-center gap-3 ">
+              <div className="flex shrink-0 items-center -space-x-2">
+                {["🐶", "🐱", "🐰"].map((emoji, index) => (
                   <span
                     key={emoji}
                     className={[
-                      'flex size-12 items-center justify-center rounded-full border-2 border-white text-lg shadow-sm',
-                      index === 0 ? 'bg-pink-100' : index === 1 ? 'bg-sky-100' : 'bg-amber-100',
-                    ].join(' ')}
+                      "flex size-10 items-center justify-center rounded-full border-2 border-white text-base shadow-sm sm:size-12 sm:text-lg",
+                      index === 0 ? "bg-pink-100" : index === 1 ? "bg-sky-100" : "bg-amber-100",
+                    ].join(" ")}
                   >
                     {emoji}
                   </span>
                 ))}
               </div>
 
-              <div className="flex flex-wrap items-center gap-3 text-sm font-medium text-slate-500">
-                <span className="rounded-full bg-white/80 px-4 py-2 shadow-sm">+500 pets felizes</span>
-                <span className="inline-flex items-center gap-2 rounded-full bg-white/80 px-4 py-2 shadow-sm">
-                  <PawPrint className="size-4 text-pink-500" />
-                  Cuidado com carinho e segurança
+              <div className="flex min-w-0 flex-1 flex-wrap items-center gap-2 text-xs font-medium text-slate-500 sm:gap-3 sm:text-sm">
+                <span className="rounded-full bg-white/80 px-3 py-2 shadow-sm sm:px-4">
+                  +500 pets felizes
+                </span>
+
+                <span className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-2 shadow-sm sm:px-4">
+                  <PawPrint className="size-4 shrink-0 text-pink-500" />
+                  <span className="leading-none">Cuidado e segurança</span>
                 </span>
               </div>
             </div>
+
           </div>
 
           <div className="relative">

@@ -32,7 +32,7 @@ export function ServicesSection() {
           })}
         </div>
 
-        <div className="mt-12 rounded-[2rem]  p-8 md:p-10">
+        <div className="mt-12 rounded-4xl  p-8 md:p-10">
           <h3 className="text-center text-xl font-black tracking-tight text-slate-950">Tambem Temos</h3>
 
           <div className="mt-6 flex flex-wrap justify-center gap-3">
