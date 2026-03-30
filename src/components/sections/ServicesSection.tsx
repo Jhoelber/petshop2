@@ -32,8 +32,8 @@ export function ServicesSection() {
           })}
         </div>
 
-        <div className="mt-12 rounded-[2rem] border border-pink-100 bg-pink-50 p-8 md:p-10">
-          <h3 className="text-center text-xl font-black tracking-tight text-slate-950">E ainda temos mais</h3>
+        <div className="mt-12 rounded-[2rem]  p-8 md:p-10">
+          <h3 className="text-center text-xl font-black tracking-tight text-slate-950">Tambem Temos</h3>
 
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             {siteData.extraServices.map((item) => (
