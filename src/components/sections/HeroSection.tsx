@@ -36,7 +36,7 @@ export function HeroSection() {
               </a>
 
               <a
-                href={siteData.instagramUrl}
+                href={siteData.whatsappUrl}
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center rounded-2xl border border-slate-200 bg-white/80 px-8 py-4 text-base font-bold text-slate-800 shadow-sm backdrop-blur transition hover:border-pink-200 hover:text-pink-600"
