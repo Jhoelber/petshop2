@@ -16,7 +16,7 @@ export function Navbar() {
           <img
             src="/pazLogo.png"
             alt="Logo Paz Pet Shop"
-            className="size-5 rounded-full object-cover sm:size-6"
+            className="size-10 rounded-full object-cover sm:size-10"
           />
           <span className="text-lg font-black tracking-tight sm:text-xl">{siteData.name.toUpperCase()}</span>
         </a>
