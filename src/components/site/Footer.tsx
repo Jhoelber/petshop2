@@ -1,4 +1,4 @@
-import { PawPrint } from 'lucide-react';
+
 import { Container } from '../layout/Container';
 import { siteData } from '../../data/site';
 
