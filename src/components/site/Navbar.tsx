@@ -14,7 +14,7 @@ export function Navbar() {
       <Container className="flex h-16 items-center justify-between gap-4">
         <a href="#inicio" className="flex items-center gap-3 text-slate-950" aria-label="Ir para o início">
           <img
-            src="/pazLogo.png"
+            src="https://res.cloudinary.com/dfgbasaxa/image/upload/v1774909598/pazpet/pazLogo_pqniay.png"
             alt="Logo Paz Pet Shop"
             className="size-10 rounded-full object-cover sm:size-10"
           />

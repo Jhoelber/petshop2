@@ -8,7 +8,7 @@ export function Footer() {
       <Container className="text-center">
         <div className="mb-5 flex items-center justify-center gap-3">
            <img
-            src="/pazLogo.png"
+            src="https://res.cloudinary.com/dfgbasaxa/image/upload/v1774909598/pazpet/pazLogo_pqniay.png"
             alt="Logo Paz Pet Shop"
             className="size-10 rounded-full object-cover sm:size-10"
           />
