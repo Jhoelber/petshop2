@@ -7,9 +7,11 @@ export function Footer() {
     <footer className="border-t border-slate-200 bg-white py-10">
       <Container className="text-center">
         <div className="mb-5 flex items-center justify-center gap-3">
-          <span className="flex size-10 items-center justify-center rounded-2xl bg-pink-500 text-white shadow-lg shadow-pink-200/80">
-            <PawPrint className="size-5" />
-          </span>
+           <img
+            src="/pazLogo.png"
+            alt="Logo Paz Pet Shop"
+            className="size-10 rounded-full object-cover sm:size-10"
+          />
           <span className="text-lg font-black tracking-tight text-slate-950">{siteData.name.toUpperCase()}</span>
         </div>
 
