@@ -2,8 +2,9 @@ import { ArrowUpRight, MapPinned } from 'lucide-react';
 import { Container } from '../layout/Container';
 import { SectionHeader } from '../layout/SectionHeader';
 import { siteData } from '../../data/site';
-
+import { isStoreOpenNow } from "../utils/isStoreOpenNow";
 export function ContactSection() {
+  const openNow = isStoreOpenNow();
   return (
     <section id="contato" className="section-anchor overflow-hidden bg-slate-950 py-20 text-white md:py-24">
       <Container>
@@ -48,9 +49,15 @@ export function ContactSection() {
             </div>
 
             <div className="mt-10 rounded-[2rem] border border-white/10 bg-white/5 p-6 backdrop-blur">
-              <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/8 px-3 py-1.5 text-sm font-semibold text-white">
-                <span className="size-2 rounded-full bg-emerald-400" />
-                {siteData.openNowLabel}
+              <div
+                className={`mb-4 inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-sm font-semibold text-white ${openNow ? "bg-white/8" : "bg-red-500/15"
+                  }`}
+              >
+                <span
+                  className={`size-2 rounded-full ${openNow ? "bg-emerald-400" : "bg-red-400"
+                    }`}
+                />
+                {openNow ? siteData.openNowLabel : "Fechado agora"}
               </div>
 
               <div className="grid gap-5 sm:grid-cols-2">
