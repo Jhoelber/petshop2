@@ -8,9 +8,9 @@ export function Footer() {
       <Container className="text-center">
         <div className="mb-5 flex items-center justify-center gap-3">
            <img
-            src="https://res.cloudinary.com/dfgbasaxa/image/upload/v1774909598/pazpet/pazLogo_pqniay.png"
+            src="/pazLogo.webp"
             alt="Logo Paz Pet Shop"
-            className="size-10 rounded-full object-cover sm:size-10"
+            className="rounded-full object-cover sm:size-10"
           />
           <span className="text-lg font-black tracking-tight text-slate-950">{siteData.name.toUpperCase()}</span>
         </div>

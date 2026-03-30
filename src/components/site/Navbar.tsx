@@ -14,11 +14,15 @@ export function Navbar() {
       <Container className="flex h-16 items-center justify-between gap-4">
         <a href="#inicio" className="flex items-center gap-3 text-slate-950" aria-label="Ir para o início">
           <img
-            src="https://res.cloudinary.com/dfgbasaxa/image/upload/v1774909598/pazpet/pazLogo_pqniay.png"
+            src="/pazLogo.webp"
             alt="Logo Paz Pet Shop"
-            className="size-10 rounded-full object-cover sm:size-10"
+            width={40}
+            height={40}
+            className=" rounded-full object-cover"
           />
-          <span className="text-lg font-black tracking-tight sm:text-xl">{siteData.name.toUpperCase()}</span>
+          <span className="text-lg font-black tracking-tight sm:text-xl">
+            {siteData.name.toUpperCase()}
+          </span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
