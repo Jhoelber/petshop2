@@ -1,10 +1,11 @@
-import { Instagram, MessageCircle } from 'lucide-react';
+import { AtSign, MessageCircle } from 'lucide-react';
+
 import { siteData } from '../../data/site';
 
 export function FloatingContactButton() {
   const href = siteData.whatsappUrl ?? siteData.instagramUrl;
   const label = siteData.whatsappUrl ? 'Falar no WhatsApp' : 'Abrir Instagram da loja';
-  const Icon = siteData.whatsappUrl ? MessageCircle : Instagram;
+  const Icon = siteData.whatsappUrl ? MessageCircle : AtSign ;
   const colorClass = siteData.whatsappUrl ? 'bg-emerald-500 hover:bg-emerald-600' : 'bg-pink-500 hover:bg-pink-600';
 
   return (

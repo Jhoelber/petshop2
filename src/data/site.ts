@@ -11,7 +11,7 @@ import {
   ShieldCheck,
   Sparkles,
   Stethoscope,
-  Instagram,
+  AtSign,
   Phone,
 } from 'lucide-react';
 import type { SiteData } from '../types/site';
@@ -128,7 +128,7 @@ export const siteData: SiteData = {
       title: 'Rede social',
       value: '@pazpetshop',
       href: 'https://www.instagram.com/pazpetshop/',
-      icon: Instagram,
+      icon: AtSign,
     },
     {
       title: 'Atendimento',
